@@ -87,7 +87,7 @@ Wants=user@${BIGBLUEBUTTON_UID}.service
 After=user@${BIGBLUEBUTTON_UID}.service
 EOF
 
-  echo "Drop-in created sucessfuly: $DROPIN_FILE"
+  echo "Drop-in created successfully: $DROPIN_FILE"
   systemctl daemon-reexec
 
   # Restart bbb-web to deploy new 
